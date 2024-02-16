@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>features</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Additional features</string>
+			<key>Description</key>
+			<string>Add a presentation and/or delegate</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Presentation &amp; Delegate</string>
+			<key>Values</key>
+			<array>
+				<string>Presentation</string>
+				<string>Presentation &amp; Delegate</string>
+			</array>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>An empty GTCUI UIView subclass</string>
+	<key>Summary</key>
+	<string>An empty GTCUI UIView subclass</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>View</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+</dict>
+</plist>
