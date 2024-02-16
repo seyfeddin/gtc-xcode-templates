@@ -16,7 +16,7 @@ This repository contains template files our teams can use.
 
 ## Usage
 **1. Copy the .xctemplate files to `~/Library/Developer/Xcode/Templates/File Templates/Getcontact`**
-Create the Templates and other folders if they are not present.
+Create the Templates, File Templates and Getcontact folders if they are not present.
 
 **2. Restart Xcode**
 
